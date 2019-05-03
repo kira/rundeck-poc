@@ -2,7 +2,7 @@
   description: list var logs
   executionEnabled: true
   loglevel: INFO
-  name: list var logs
+  name: re list var logs
   nodeFilterEditable: false
   scheduleEnabled: true
   sequence:

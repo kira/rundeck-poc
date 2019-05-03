@@ -1,0 +1,13 @@
+- defaultTab: output
+  description: list var logs
+  executionEnabled: true
+  loglevel: INFO
+  name: list var logs
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - description: list var logs
+      exec: ls -lrt /var/log
+    keepgoing: false
+    strategy: node-first

@@ -1,0 +1,13 @@
+- defaultTab: output
+  description: Run `htop`
+  executionEnabled: true
+  loglevel: INFO
+  name: command-htop
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - description: Run `htop`
+      exec: htop
+    keepgoing: false
+    strategy: node-first

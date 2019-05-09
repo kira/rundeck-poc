@@ -1,0 +1,13 @@
+- defaultTab: output
+  description: cat var logs
+  executionEnabled: true
+  loglevel: INFO
+  name: cat var logs
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - description: cat var logs
+      exec: cat /var/log/messages
+    keepgoing: false
+    strategy: node-first
